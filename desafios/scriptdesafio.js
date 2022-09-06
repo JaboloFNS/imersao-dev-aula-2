@@ -8,9 +8,16 @@ function converterDolar(){
 
     let resultado = document.getElementById ("valorConvertido");
     let valorConvertido = "O resultado em Dolar é igual a " + valorEmDolarFixed;
-    let erro = "Ensira um valor diferente de 0";
+    let erro = "Ensira um valor válido e tente novamente";
+    let x = valorEmDolarFixed;
 
-    resultado.innerHTML = valorConvertido;
+    if(x=" "){
+        resultado.innerHTML = erro;
+    } else{
+        resultado.innerHTML = valorConvertido;
+    }
+
+    
 
 }
 
