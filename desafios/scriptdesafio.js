@@ -8,6 +8,7 @@ function converterDolar(){
 
     let resultado = document.getElementById ("valorConvertido");
     let valorConvertido = "O resultado em Dolar é igual a " + valorEmDolarFixed;
+    let erro = "Ensira um valor diferente de 0";
 
     resultado.innerHTML = valorConvertido;
 
@@ -37,9 +38,7 @@ function converterLibras(){
     let valorEmLibrasFixed = valorEmLibras.toFixed(2);
 
     let resultado = document.getElementById ("valorConvertido");
-    let valorConvertido = "O resultado em Libras é igual a " + valorEmLibras;
+    let valorConvertido = "O resultado em Libras é igual a " + valorEmLibrasFixed;
 
     resultado.innerHTML = valorConvertido;
-
-
 }
