@@ -1,3 +1,4 @@
+// código da aula
 function Converter() {
     var elemento = document.getElementById("valor");
     var valor = elemento.value;
