@@ -1,0 +1,62 @@
+body{
+    font-family: "Roboto Mono", monospace;
+    color: black;
+    background-color: black;
+    background-image: url(https://img.freepik.com/free-photo/closeup-golden-usd-coins-dropping-dark-background-dollar-is-main-currency-exchange-payment-world-by-3d-render_616485-2.jpg?w=740&t=st=1662483806~exp=1662484406~hmac=72ee6fc678c0577021b8d5dc1d953f1ce336a45563924e5cf7c87564760629d8);
+    overflow-x: hidden;
+    width: 95vw;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    height: 550px;
+    width: 40vw;
+    border: 10px solid #373737;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin: 0;
+    font-size: 44px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+label{
+    color: rgb(207,181,59);
+    margin-bottom: 10px;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+button{
+    margin: 0px 2px;
+    text-align: center;
+    width: 50px;
+    height: 40px;
+    border: 2px solid rgb(255,223,0);
+    border-radius: 100px;
+}
+
+input{
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid lightgray;
+    border-radius: 100px;
+}
