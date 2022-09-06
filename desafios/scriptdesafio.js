@@ -8,14 +8,9 @@ function converterDolar(){
 
     let resultado = document.getElementById ("valorConvertido");
     let valorConvertido = "O resultado em Dolar é igual a " + valorEmDolarFixed;
-    let erro = "Ensira um valor válido e tente novamente";
-    let x = valorEmDolarFixed;
 
-    if(x=" "){
-        resultado.innerHTML = erro;
-    } else{
-        resultado.innerHTML = valorConvertido;
-    }
+    resultado.innerHTML = valorConvertido;
+    
 
     
 
@@ -31,8 +26,9 @@ function converterEuro(){
 
     let resultado = document.getElementById ("valorConvertido");
     let valorConvertido = "O resultado em Euro é igual a " + valorEmEuroFixed;
-
+        
     resultado.innerHTML = valorConvertido;
+
 
 }
 
@@ -48,4 +44,5 @@ function converterLibras(){
     let valorConvertido = "O resultado em Libras é igual a " + valorEmLibrasFixed;
 
     resultado.innerHTML = valorConvertido;
+
 }
